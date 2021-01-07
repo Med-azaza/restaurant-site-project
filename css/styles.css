@@ -1,0 +1,33 @@
+body {
+   background-color: #DCE1E3; 
+   font-size: 16px;
+   color:#5C5F58;
+   font-family: 'Raleway', sans-serif;
+}
+#header-nav {
+    background-color: white;
+}
+#logo-img {
+    background: url('../img/rest-logo-f.png') no-repeat;
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
+    float: left;
+}
+.navbar-header {
+    width: 400px;
+}
+a {
+    text-decoration: none;
+}
+.navbar-brand {
+    padding-top: 12px;
+}
+.navbar-brand h1 {
+    font-weight: bold;
+    text-shadow: 2px 2px gray;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+
+}
