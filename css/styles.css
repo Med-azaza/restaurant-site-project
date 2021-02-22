@@ -58,6 +58,25 @@ h1 {
 #map-tile:hover, #specials-tile:hover, #menu-tile:hover {
     box-shadow: 0 1px 5px 1px #cccccc;
 }
+#menu-tile {
+    background: url(../img/menu.jpg) no-repeat;
+    background-position: center;
+}
+#specials-tile {
+    background: url(../img/special.jpg) no-repeat;
+    background-position: center;
+}
+#map-tile span, #specials-tile span, #menu-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-size: 1.6em;
+    background-color: black;
+    opacity: .8;
+    text-align: center;
+    color: white;
+}
 
 
 
@@ -76,6 +95,9 @@ h1 {
     .jumbotron {
         box-shadow: 0 0 50px #3F0C1F;
     }
+
+    }
+    @media (max-width:576px) {
     }
 @media (min-width:1200px) {
     .jumbotron {
