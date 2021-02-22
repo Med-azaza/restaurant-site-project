@@ -56,7 +56,7 @@ h1 {
     margin-bottom: 15px;
 }
 #map-tile:hover, #specials-tile:hover, #menu-tile:hover {
-    box-shadow: 0 1px 5px 1px #cccccc;
+    box-shadow:  0 0 50px #3F0C1F;
 }
 #menu-tile {
     background: url(../img/menu.jpg) no-repeat;
@@ -77,7 +77,26 @@ h1 {
     text-align: center;
     color: white;
 }
-
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: white;
+}
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+#hours, #address {
+    line-height: 2;
+}
+#hours>span, #address>span {
+    font-size: 1.3em;
+}
+#testimonials {
+    font-style: italic;
+}
 
 
 
@@ -98,6 +117,9 @@ h1 {
 
     }
     @media (max-width:576px) {
+        .panel-footer section {
+            text-align: center;
+        }
     }
 @media (min-width:1200px) {
     .jumbotron {
